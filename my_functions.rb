@@ -48,3 +48,11 @@ when 12
 end
 return month_name
 end
+def substring(number)
+  sliced_month_name = number_to_full_name(number).slice!(3)
+  return sliced_month_name
+end
+def volume_of_cube(length_of_side)
+  volume = length_of_side ** 3
+  return volume
+end
